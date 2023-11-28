@@ -3,16 +3,11 @@ A simple project to transform an old Casio keyboard into a MIDI controller, base
 Arduino enviroment.  
 It makes use of the "Hairless MIDI to Serial Bridge" for MIDI communication and "LoopMIDI" for virtual MIDI port creation, allowing for easy customization and integration into various music setups.  
 Also implemented is ability for easily doing octave shift and key transpose on the fly.  
-Schematics, etc, all provided. 
-
-<p align="left">
+Schematics, etc, all provided.  
+Also needed is a serial to usb module to connect to the computer, if you are using a barebones Atmega328p.
+  
 <img src="img1.jpg"/>
-</p>
-
-<p align="left">
+  
 <img src="Casio_SA-21_key_matrix.png"/>
-</p>
-
-<p align="left">
+  
 <img src="schematic.png"/>
-</p>
