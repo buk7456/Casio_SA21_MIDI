@@ -1,13 +1,30 @@
 ## Casio SA-21 midi conversion
-A simple project to transform an old Casio keyboard into a MIDI controller, based around the Atmega328p and 
-Arduino enviroment.  
-It makes use of the "Hairless MIDI to Serial Bridge" for MIDI communication and "LoopMIDI" for virtual MIDI port creation, allowing for easy customization and integration into various music setups.  
-Also implemented is ability for easily doing octave shift and key transpose on the fly.  
-Schematics, etc, all provided.  
-Also needed is a serial to usb module to connect to the computer, if you are using a barebones Atmega328p.
-  
-<img src="img1.jpg"/>
-  
+A simple project to transform an old Casio keyboard into a MIDI controller, based around the ATmega328P microcontroller and 
+Arduino enviroment.
+
+### Main features
+- Octave shifting
+- Key transpose
+- Adjustable note velocity
+- Support for 5 midi channels
+
+### Requirements for PC connection  
+- Serial to USB module if using a barebones ATmega328P.
+- Hairless MIDI to Serial Bridge for MIDI communication.
+- LoopMIDI for virtual MIDI port creation.
+
+### Hardware and shematics
+<p align="left">
 <img src="Casio_SA-21_key_matrix.png"/>
-  
+</p>
+
+<p align="left">
 <img src="schematic.png"/>
+</p>
+
+<p align="left">
+<img src="img1.jpg"/>
+</p>
+
+You will need to desolder the original chip that comes with the keyboard so that it does not interfere
+with the microcontroller. In my case I simply cut its pins to the key and button matrices. 
