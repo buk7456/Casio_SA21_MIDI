@@ -1,5 +1,5 @@
 /*******************************************************************************
-  Arduino uno (Atmega328p) code for Casio_SA-21 MIDI mod
+  Arduino uno code for Casio_SA-21 MIDI mod
   BUK   buk7456@gmail.com
 
   Guiding Docs used:
@@ -39,12 +39,6 @@ enum {
 }; //button map
 
 //-------------------------
-bool shiftLastState = HIGH, octaveLastState = HIGH;
-bool transposeLastState = HIGH, programLastState = HIGH;
-bool shiftPressed = false;
-bool octavePressed = false;
-bool transposePressed = false;
-bool programPressed = false;
 
 uint8_t startNote = 29;
 
@@ -52,7 +46,6 @@ uint8_t channel = 0x00;
 
 uint8_t prevKeyMap = 29;
 bool isDefaultMapping = false; 
-
 
 //declarations
 void activateColumn(uint8_t col);
@@ -134,7 +127,7 @@ void loop()
   ///---------------- READ PITCH WHEEL ----------------
   //readPitchWheel();
   
-  /// ------ LIMIT LOOP RATE
+  /// --------------- LIMIT LOOP RATE -----------------
   uint8_t loopTime = millis() - loopStartTime;
   if(loopTime < 10)
     delay(10 - loopTime);
@@ -247,7 +240,7 @@ void processButton()
 void setKeyMap(uint8_t _startingNote)
 {
   uint8_t note = _startingNote;
-  if (note > 96 || note < 0)
+  if (note > 96)
     return;
 
   startNote = note;
