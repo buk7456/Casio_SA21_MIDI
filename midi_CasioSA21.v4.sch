@@ -6609,32 +6609,30 @@ Source: avr.lbr</description>
 <sheet>
 <plain>
 <text x="136.144" y="73.152" size="1.778" layer="97">PITCH WHEEL</text>
-<text x="123.19" y="4.064" size="1.778" layer="97" rot="R90">ROW1</text>
-<text x="105.156" y="3.81" size="1.778" layer="97" rot="R90">ROW8</text>
-<text x="102.616" y="2.286" size="1.778" layer="97" rot="R90">COL1</text>
-<text x="149.352" y="83.058" size="1.778" layer="97">COL8</text>
-<text x="94.996" y="2.286" size="1.778" layer="97" rot="R90">COL4</text>
-<text x="149.352" y="90.932" size="1.778" layer="97">COL5</text>
-<text x="149.352" y="88.138" size="1.778" layer="97">COL6</text>
-<text x="149.352" y="85.598" size="1.778" layer="97">COL7</text>
-<text x="120.396" y="3.81" size="1.778" layer="97" rot="R90">ROW2</text>
-<text x="117.602" y="3.81" size="1.778" layer="97" rot="R90">ROW3</text>
-<text x="115.062" y="3.81" size="1.778" layer="97" rot="R90">ROW4</text>
-<text x="112.776" y="3.81" size="1.778" layer="97" rot="R90">ROW5</text>
-<text x="110.236" y="3.81" size="1.778" layer="97" rot="R90">ROW6</text>
-<text x="100.076" y="2.286" size="1.778" layer="97" rot="R90">COL2</text>
-<text x="97.536" y="2.286" size="1.778" layer="97" rot="R90">COL3</text>
-<text x="107.95" y="3.81" size="1.778" layer="97" rot="R90">ROW7</text>
+<text x="123.19" y="3.81" size="1.778" layer="97" rot="R90">ROW0</text>
+<text x="105.41" y="3.81" size="1.778" layer="97" rot="R90">ROW7</text>
+<text x="102.362" y="3.81" size="1.778" layer="97" rot="R90">COL0</text>
+<text x="149.352" y="83.058" size="1.778" layer="97">COL7</text>
+<text x="94.996" y="3.81" size="1.778" layer="97" rot="R90">COL3</text>
+<text x="149.352" y="90.932" size="1.778" layer="97">COL4</text>
+<text x="149.352" y="88.138" size="1.778" layer="97">COL5</text>
+<text x="149.352" y="85.598" size="1.778" layer="97">COL6</text>
+<text x="120.396" y="3.81" size="1.778" layer="97" rot="R90">ROW1</text>
+<text x="117.602" y="3.81" size="1.778" layer="97" rot="R90">ROW2</text>
+<text x="115.062" y="3.81" size="1.778" layer="97" rot="R90">ROW3</text>
+<text x="112.776" y="3.81" size="1.778" layer="97" rot="R90">ROW4</text>
+<text x="110.236" y="3.81" size="1.778" layer="97" rot="R90">ROW5</text>
+<text x="100.076" y="3.81" size="1.778" layer="97" rot="R90">COL1</text>
+<text x="97.536" y="3.81" size="1.778" layer="97" rot="R90">COL2</text>
+<text x="107.95" y="3.81" size="1.778" layer="97" rot="R90">ROW6</text>
 <text x="12.7" y="5.08" size="1.778" layer="97">PWR &amp; COMM</text>
 <text x="149.86" y="53.34" size="1.778" layer="97">47k</text>
 <text x="121.92" y="93.98" size="1.778" layer="97">220R</text>
 <text x="81.28" y="25.4" size="1.778" layer="97">220R</text>
-<wire x1="2.54" y1="104.14" x2="5.08" y2="104.14" width="0.1524" layer="97"/>
-<wire x1="5.08" y1="104.14" x2="157.48" y2="104.14" width="0.1524" layer="97"/>
+<wire x1="0" y1="104.14" x2="157.48" y2="104.14" width="0.1524" layer="97"/>
 <wire x1="157.48" y1="104.14" x2="157.48" y2="0" width="0.1524" layer="97"/>
 <wire x1="157.48" y1="0" x2="0" y2="0" width="0.1524" layer="97"/>
 <wire x1="0" y1="0" x2="0" y2="104.14" width="0.1524" layer="97"/>
-<wire x1="0" y1="104.14" x2="2.54" y2="104.14" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="20.32" y="68.58" smashed="yes" rot="R90">
