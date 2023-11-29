@@ -9,7 +9,7 @@ Arduino enviroment.
 - Support for 5 midi channels
 
 ### Requirements for PC connection  
-- Serial to USB module if using a barebones ATmega328P.
+- Serial to USB module if using a stand-alone ATmega328P.
 - Hairless MIDI to Serial Bridge for MIDI communication.
 - LoopMIDI for virtual MIDI port creation.
 
